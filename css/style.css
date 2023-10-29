@@ -7,17 +7,12 @@
 
 body {
     background: #314755;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #26a0da, #314755);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #26a0da, #314755);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #000046 0%, #1CB5E0 51%, #000046 100%);
+    background-image: linear-gradient(to right, #457fca 0%, #5691c8 51%, #457fca 100%);
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -30,29 +25,22 @@ body {
 
 .btn-grad:hover {
     background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
+    background-color: aliceblue;
     text-decoration: none;
 }
-
 
 .image-box {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 250px;
-    /* Adjust the height as needed */
     width: 100%;
-    /* Make it responsive */
     overflow: hidden;
-    /* Prevent image overflow */
 }
 
 #QRImage {
     max-width: 100%;
-    /* Make the image responsive */
     max-height: 100%;
-    /* Make the image responsive */
 }
 
 .new-row {
